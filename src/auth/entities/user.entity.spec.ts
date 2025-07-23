@@ -4,7 +4,6 @@ describe('UserEntity', () => {
   it('should has all correct properties', () => {
     const user = new User();
 
-    console.log(user);
     expect(user).toBeInstanceOf(User);
   });
 
