@@ -24,9 +24,11 @@
 
 6. **Start the application**: `npm start:dev`
 
+---
+
 ## Specific Topics
 
-In this section, we'll be setting up and working on a real backend Nest. The idea is to have a complete backend with decorators, a database, and Nest-specific functionalities to test all possible cases.
+In the first section, we'll be setting up and working on a real backend Nest. The idea is to have a complete backend with decorators, a database, and Nest-specific functionalities to test all possible cases.
 
 Specifically, in this section, I want to focus on:
 
@@ -38,6 +40,24 @@ Specifically, in this section, I want to focus on:
 - **Guards**
 - **Spies**
 - **Returning Partial Implementations**
+
+Here's that text translated into English:
+
+---
+
+In the second section, we'll work with services, modules, controllers, and the `bootstrap` function, but additionally, we'll need to **simulate everything related to our users' authentication process**.
+
+Specifically, we'll cover:
+
+- **Spies**
+- **Mocks**
+- **Exceptions**
+- **Bcrypt**
+- **Configurations and Mock Return values**
+- **MockReturnThis**, for using the builder pattern
+- etc.
+
+---
 
 ## Required config for e2e testing
 
