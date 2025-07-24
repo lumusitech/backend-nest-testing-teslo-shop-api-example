@@ -54,7 +54,7 @@ export class AuthController {
   ) {
     return {
       ok: true,
-      message: 'Hola Mundo Private',
+      message: 'Hello world Private',
       user,
       userEmail,
       rawHeaders,
