@@ -41,8 +41,6 @@ Specifically, in this section, I want to focus on:
 - **Spies**
 - **Returning Partial Implementations**
 
-Here's that text translated into English:
-
 ---
 
 In the second section, we'll work with services, modules, controllers, and the `bootstrap` function, but additionally, we'll need to **simulate everything related to our users' authentication process**.
@@ -56,6 +54,19 @@ Specifically, we'll cover:
 - **Configurations and Mock Return values**
 - **MockReturnThis**, for using the builder pattern
 - etc.
+
+---
+
+This section es the final unit testing section before moving on to E2E. It's relatively complex because we'll be testing objects with many dependencies. While these come in as injections, we still need to prepare mock objects that let us simulate various scenarios.
+
+Specifically, we'll cover:
+
+- **Products Service Tests**
+  - (This involves multiple repositories and DB transactions)
+- **UUID Tests**
+- **QueryRunner, Commit, and Rollback Tests**
+- **File Upload Methods**
+- **FilesService Tests**
 
 ---
 
