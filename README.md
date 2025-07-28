@@ -57,7 +57,7 @@ Specifically, we'll cover:
 
 ---
 
-This section es the final unit testing section before moving on to E2E. It's relatively complex because we'll be testing objects with many dependencies. While these come in as injections, we still need to prepare mock objects that let us simulate various scenarios.
+This section is the final unit testing section before moving on to E2E. It's relatively complex because we'll be testing objects with many dependencies. While these come in as injections, we still need to prepare mock objects that let us simulate various scenarios.
 
 Specifically, we'll cover:
 
@@ -67,6 +67,10 @@ Specifically, we'll cover:
 - **QueryRunner, Commit, and Rollback Tests**
 - **File Upload Methods**
 - **FilesService Tests**
+
+---
+
+In this final section, we'll perform end-to-end (E2E) tests for the authentication, authorization, and file upload aspects of our application. This process will reinforce our understanding of E2E testing principles and the AAA (Authentication, Authorization, Accounting) pattern.
 
 ---
 
