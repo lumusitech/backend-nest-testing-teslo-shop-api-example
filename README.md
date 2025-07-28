@@ -80,6 +80,8 @@ To ensure a clear distinction and accurate reporting, you **must separate the co
 
 To achieve this separation, you'll need a dedicated Jest configuration file for your e2e tests, typically named `jest-e2e.json`. Your `package.json` scripts should then point to this specific configuration:
 
+NOTE: Remember remove comments - json not accept this
+
 ```json
 // build after pass all unit tests ant e2e tests
   "build": "npm run test && npm run test:e2e && nest build",
@@ -87,6 +89,8 @@ To achieve this separation, you'll need a dedicated Jest configuration file for 
   "test:e2e": "jest --config ./jest-e2e.json",
   "test:e2e:watch": "jest --config ./jest-e2e.json --watch",
   "test:e2e:cov": "jest --config ./jest-e2e.json --coverage"
+// Add --detectOpenHandles if you get a warning because app did not close
+  "test:e2e:cov": "jest --config ./jest-e2e.json --coverage --detectOpenHandles"
 // ...rest of scripts
 ```
 
