@@ -23,7 +23,7 @@ export class Product {
   id: string;
 
   @ApiProperty({
-    example: 'T-Shirt Teslo',
+    example: 'T-Shirt Demo Shop',
     description: 'Product Title',
     uniqueItems: true,
   })
@@ -53,7 +53,7 @@ export class Product {
   description: string;
 
   @ApiProperty({
-    example: 't_shirt_teslo',
+    example: 't_shirt_demo_shop',
     description: 'Product SLUG - for SEO',
     uniqueItems: true,
   })

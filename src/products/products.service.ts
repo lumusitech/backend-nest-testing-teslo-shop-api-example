@@ -154,6 +154,7 @@ export class ProductsService {
   private handleDBExceptions(error: any) {
     if (error.code === '23505') throw new BadRequestException(error.detail);
 
+    //? if error !== '23505 call logger
     this.logger.error(error);
     // console.log(error)
     throw new InternalServerErrorException(
