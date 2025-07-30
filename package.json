@@ -1,8 +1,8 @@
 {
-  "name": "teslo-shop",
+  "name": "demo-shop",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Demo Shop project with  a testing guide (unit and e2e testing)",
+  "author": "lumusitech",
   "private": true,
   "license": "UNLICENSED",
   "engines": {
